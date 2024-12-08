@@ -3,10 +3,9 @@ import { RouterOutlet } from '@angular/router';
 import WebApp from '@twa-dev/sdk';
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
+    selector: 'app-root',
+    imports: [RouterOutlet],
+    templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
   ngOnInit(): void {
